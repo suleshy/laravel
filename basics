@@ -1,0 +1,10 @@
+laravel new <project name>
+start server "php artisan serve"
+create an authentication form "php artisan ui:auth"
+npm install
+npm rundev (Two times)
+vim database/database.sqlite (Empty file)
+
+Go to .ENV ##We will use sqlite (make sure you install sqlite with command "sudo apt-get install php-sqlite3")
+php artisan migrate
+
